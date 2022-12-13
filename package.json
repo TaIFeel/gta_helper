@@ -1,0 +1,23 @@
+{
+  "name": "gta_helper",
+  "version": "1.0.0",
+  "description": "GTA ONLINE Helper for newbie",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "TaIFeel",
+  "devDependencies": {
+    "electron": "^21.3.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8"
+  }
+}

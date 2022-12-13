@@ -1,0 +1,64 @@
+.menu-bar{
+    height: 10vh;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#main-empty{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 10vh;
+    max-width: 150px;
+    line-height: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#home{
+    position: absolute;
+    left: 0;
+    height: 53px;
+    width: 43px;
+    padding-left: 3px;
+}
+
+#home:hover{
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
+
+#dragzone{
+    -webkit-app-region: drag;
+    position: absolute;
+    left: 41px;
+    width: 748px;
+    height: 10vh;
+}
+
+#subtract{
+    position: absolute;
+    left: 787px;
+    height: 53px;
+    width: 30px;
+}
+
+#subtract:hover{
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
+
+#close{
+    position: absolute;
+    left: 815px;
+    height: 53px;
+    width: 30px;
+}
+
+#close:hover{
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
